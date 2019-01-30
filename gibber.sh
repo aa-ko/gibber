@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Parameters:
-# 1. search path
-# 2. search pattern
-# 3. target encoding
-
 export NEW_ENC=$(echo $3 | sed 's/\(.*\)/\L\1/')
 
 function convertencoding {
