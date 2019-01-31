@@ -1,5 +1,8 @@
 #!/bin/bash
 
+rm gibber.log
+rm gibber_errlist.log
+
 export NEW_ENC=$(echo $3 | sed 's/\(.*\)/\L\1/')
 
 function convertencoding {
